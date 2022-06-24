@@ -1,4 +1,4 @@
-h2 {
+h2:hover {
     color: red;
 }
 
@@ -8,4 +8,28 @@ h2 {
 
 #about-me {
     color: blue;
+}
+
+li:first-child {
+    color: steelblue;
+}
+
+li:last-child {
+    background-color: aqua;
+}
+
+li:nth-child(2) {
+    text-decoration: line-through;
+}
+
+li:only-child {
+    color: red;
+}
+
+#google-link:link {
+    color: blue;
+}
+
+#google-link:visited {
+    color: red;
 }
