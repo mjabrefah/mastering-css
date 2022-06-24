@@ -10,7 +10,7 @@ h2:hover {
     color: blue;
 }
 
-li:first-child {
+/* li:first-child {
     color: steelblue;
 }
 
@@ -24,12 +24,34 @@ li:nth-child(2) {
 
 li:only-child {
     color: red;
-}
+} */
 
-#google-link:link {
+/* #google-link:link {
     color: blue;
 }
 
 #google-link:visited {
     color: red;
+} */
+
+/* adjacent sibling selector */
+/* selects an element[a] that directly follows a differnt element[h2] */
+h2 + a {
+    color: red;
+}
+
+/* general sibling combinator */
+/* selects an element[a] that directly follows a differnt element[h2] but should have the same parent*/
+textarea ~ button {
+    color: pink;
+}
+
+/* child selector */
+ul > li {
+    color: purple;
+}
+
+/* descendant selector */
+ul li {
+    color: green;
 }
