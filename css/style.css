@@ -55,3 +55,9 @@ ul > li {
 ul li {
     color: green;
 }
+
+/* atttribute selector */
+/* tag[attr = value] {} */
+ul [class = list-item] {
+    text-decoration: line-through;
+}
