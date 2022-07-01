@@ -1,9 +1,22 @@
+body {
+    background: rgb(242, 245, 245);
+}
+
 #title {
     color: rgb(32, 189, 203);
 }
 
 .subtitle {
     color: rgb(72, 211, 224);
+}
+
+#service-image {
+    height: 255px;
+    width: 35%;
+    background: url("../img/img-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: aqua;
 }
 
 /* INTRODUCTION */
