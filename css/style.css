@@ -10,13 +10,25 @@ body {
     color: rgb(72, 211, 224);
 }
 
+.subtitle:hover {
+    color: rgba(196, 18, 18, .5);
+}
+
 #service-image {
     height: 255px;
     width: 35%;
     background: url("../img/img-2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: aqua;
+    background-color: slategrey;
+}
+
+
+#the-box {
+    height: 200px;
+    width: 30%;
+    /* background: linear-gradient(to top left, rgb(35, 222, 178), rgba(35, 222, 178, 0.1)); */
+    background: radial-gradient(circle, rgb(68, 87, 254), rgb(27, 173, 139), rgb(151, 173, 27));
 }
 
 /* INTRODUCTION */
