@@ -1,4 +1,54 @@
-h2:hover {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* h2:hover {
     color: red;
 }
 
@@ -8,7 +58,7 @@ h2:hover {
 
 #about-me {
     color: blue;
-}
+} */
 
 /* li:first-child {
     color: steelblue;
@@ -37,28 +87,28 @@ li:only-child {
 
 /* adjacent sibling selector */
 /* selects an element[a] that directly follows a differnt element[h2] */
-h2 + a {
+/* h2 + a {
     color: red;
-}
+} */
 
 /* general sibling combinator */
 /* selects an element[button] that directly follows a differnt element[textarea] but should have the same parent*/
-textarea ~ button {
+/* textarea ~ button {
     color: pink;
-}
+} */
 
 /* child selector */
-ul > li {
+/* ul > li {
     color: purple;
-}
+} */
 
 /* descendant selector */
-ul li {
+/* ul li {
     color: green;
-}
+} */
 
 /* atttribute selector */
 /* tag[attr = value] {} */
-ul [class = list-item] {
+/* ul [class = list-item] {
     text-decoration: line-through;
-}
+} */
