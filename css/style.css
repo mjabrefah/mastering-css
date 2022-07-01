@@ -34,6 +34,7 @@ li:only-child {
     color: red;
 } */
 
+
 /* adjacent sibling selector */
 /* selects an element[a] that directly follows a differnt element[h2] */
 h2 + a {
@@ -41,7 +42,7 @@ h2 + a {
 }
 
 /* general sibling combinator */
-/* selects an element[a] that directly follows a differnt element[h2] but should have the same parent*/
+/* selects an element[button] that directly follows a differnt element[textarea] but should have the same parent*/
 textarea ~ button {
     color: pink;
 }
